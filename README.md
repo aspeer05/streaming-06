@@ -1,4 +1,4 @@
-# streaming-05 (Creating a Producer)
+# streaming-06 (Consumers, Windowing, and Multiple Channels)
 ### Amber Speer
 ### Module 5 & 6 Assignments
 ### Feb 13-18, 2023
