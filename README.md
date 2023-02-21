@@ -11,14 +11,18 @@ This script require pika, sys, webbrowser, csv, time, and deque.
 
 # How to run the code
 
-In an evironment with the prerequisits installed run the code using the python bbqproducer.py command
+In an evironment with the prerequisits installed run the code using the python bbqprod.py command
 
-At this point you can only see the sent message since the consumers are not yet built.
+Once the producer code is running, open 3 more terminal (that have the preequists Installed) and run smokercon.py, foodacon.py, and foodbcon.py
 
-If you are not wanting to see all the temperatures, press Crtl + C to end the code.
+If you need to stop streaming at any poin, press Crtl + C to end the code in the terminal of your choice.
 
-I have included the code to open the RabbitMQ console.  However, I am not able to pull it up on my computer.  Since it is just an error screen to me I have shut off the feature.
+I have included the code to open the RabbitMQ console.  
 
-# Producer Terminal Output
+# Producer and Consumer Terminal Outputs
 
-![Producer](Producer_Terminal.jpg)
+### Veiw 1
+![Producer/Consumer](Screenshot1.jpg)
+
+# Veiw 2
+![Producer/Consumer](Screenshot2.jpg)
